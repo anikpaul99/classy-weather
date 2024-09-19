@@ -1,38 +1,108 @@
-# Get a quick weather forecast from 'Classy Weather' for any location!
+# Classy Weather 🌤️
 
-## Get to know-
+Classy Weather is a sleek and user-friendly weather application that allows users to search for weather forecasts by location. Simply enter a location in the search bar (e.g., "London"), and the app will display the weather forecast for today and the next six days. The data is fetched in real-time from a reliable weather API, ensuring that users have the most accurate and up-to-date information.
 
-- Weather condition
-- Highest and lowest temperatures
-- <em> A 7-day forecast </em>
+## Project Functionality
 
----
+- **Location Search:** Users can search for any location worldwide using the search bar.
+- **Weather Forecast:** The app displays the weather forecast for the current day and the following six days.
+- **Real-time Data:** The weather data is fetched from the Open-Meteo API, ensuring accurate and current information.
+- **Responsive Design:** The application is fully responsive, making it accessible on various devices, including smartphones, tablets, and desktops.
 
-## Installation
+## Screenshots
 
-Install "Classy Weather" with npm
+1. **Home Page:**
+   ![Screenshot of Home Page](screenshots/home.PNG)
+2. **Weather Data for 'London':**
+   ![Screenshot of London Weather](screenshots/home1.PNG)
+3. **Weather Data for 'Berlin':**
+   ![Screenshot of Berlin Weather](screenshots/home2.PNG)
+4. **Weather Data for 'Paris':**
+   ![Screenshot of Paris Weather](screenshots/home3.PNG)
+5. **Weather Data for 'Calcutta':**
+   ![Screenshot of Calcutta Weather](screenshots/home4.PNG)
+6. **Weather Data for 'Chittagong':**
+   ![Screenshot of Chittagong Weather](screenshots/home5.PNG)
+7. **Weather Data for 'New York':**
+   ![Screenshot of New York Weather](screenshots/home6.PNG)
+
+## Technology Stack
+
+This project was built using the following technologies:
+
+- ![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?style=for-the-badge&logo=create-react-app&logoColor=white) **Create React App**
+- ![React 18](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) **React 18**
+- ![Open-Meteo API](https://img.shields.io/badge/Open--Meteo%20API-00A7E1?style=for-the-badge&logo=open-meteo&logoColor=white) **Weather API: [api.open-meteo.com](https://api.open-meteo.com/)**
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your development machine:
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/classy-weather.git
+   cd classy-weather
+   ```
+
+2. **Install the dependencies:**
+
+   If you're using npm:
+
+   ```bash
+   npm install
+   ```
+
+   If you're using yarn:
+
+   ```bash
+   yarn install
+   ```
+
+3. **Start the development server:**
+
+   If you're using npm:
+
+   ```bash
+   npm start
+   ```
+
+   If you're using yarn:
+
+   ```bash
+   yarn start
+   ```
+
+   The app should now be running on `http://localhost:3000`.
+
+### Deployment
+
+To create a production build of the app, run:
 
 ```bash
-  npm install
-  npm run start
+npm run build
 ```
 
----
+or
 
-## Demo
+```bash
+yarn build
+```
 
-Visit [**Classy Weather App**](https://classy-weather-anik.netlify.app/)
+The build folder can then be deployed to any static site hosting service like Netlify, Vercel, or GitHub Pages.
 
-![home](https://github.com/anikpaul99/classy-weather/assets/132483203/ce1673f8-b7bf-4df1-92fe-6b927264652a)
+## Contact
 
-### Search for a weather forecast for your location.
+For any inquiries or further information, feel free to reach out:
 
-![london weather](https://github.com/anikpaul99/classy-weather/assets/132483203/1c6885c1-924f-4331-950b-68268d174f63)
-![berlin weather](https://github.com/anikpaul99/classy-weather/assets/132483203/c2d68e40-5eee-492c-ab1f-d0374f7264b3)
-![paris weather](https://github.com/anikpaul99/classy-weather/assets/132483203/b0326323-9734-46df-b08b-444b31fa497f)
-![calcutta weather](https://github.com/anikpaul99/classy-weather/assets/132483203/eb01f2b9-833a-468d-993f-5c04f324c956)
-![ctg weather](https://github.com/anikpaul99/classy-weather/assets/132483203/f75d3793-5197-464d-95b4-b9973340948a)
-
----
-
-https://github.com/anikpaul99/classy-weather/assets/132483203/cc57addb-b28a-41b0-af16-8e6e69f17cc4
+- 📧 **Email**: [hello@paulanik.com](mailto:hello@paulanik.com)
+- 🌐 **Portfolio**: [paulanik.com](https://paulanik.com)
+- 💼 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/anik-paul-dev/)
+- 📝 **Dev.to**: [Dev.to Profile](https://dev.to/anikpaul)
